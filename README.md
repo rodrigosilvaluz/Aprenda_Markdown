@@ -252,30 +252,7 @@ Resultado:
 
  Markdown: Sintaxe
 
-    visão global
-        Filosofia
-        HTML embutido
-        Escapamento automático para caracteres especiais 
-    Elementos do bloco
-        Parágrafos e quebras de linha
-        Cabeçalhos
-        Citações em bloco
-        Listas
-        Blocos de código
-        Regras horizontais 
-    Elementos de extensão
-        Ligações
-        Ênfase
-        Código
-        Imagens 
-    Diversos
-        Escapes de barra invertida
-        Links automáticos 
-
-
-
-Nota: Este documento é ele próprio escrito usando Markdown; você pode ver a fonte adicionando '.text' ao URL .
-visão global
+ 
 Filosofia
 
 O Markdown deve ser o mais fácil de ler e escrever o mais possível.
@@ -304,7 +281,10 @@ Tags HTML no nível de <span> - por exemplo, <span> , <cite> ou <del> - podem se
 Diferentemente das tags HTML em nível de bloco, a sintaxe do Markdown é processada nas tags em nível de extensão.
 Escapamento automático para caracteres especiais
 
-No HTML, existem dois caracteres que exigem tratamento especial: < e & . Colchetes de ângulo esquerdo são usados ​​para iniciar as tags; e comercial são usados ​​para denotar entidades HTML. Se você deseja usá-los como caracteres literais, deve escapar deles como entidades, por exemplo, &lt; e &amp; .
+No HTML, existem dois caracteres que exigem tratamento especial:
+
+ '< '  e  '& '. Colchetes de ângulo esquerdo são usados ​​para iniciar as tags; e comercial são usados ​​para denotar entidades HTML. Se você deseja usá-los como caracteres literais, deve escapar deles como entidades, por exemplo, &lt; e &amp; .
+
 
 E comercial, em particular, é um problema para os autores da web. Se você quiser escrever sobre 'AT&T', você precisa escrever ' AT&amp;T '. Você ainda precisa escapar do e comercial nos URLs. Portanto, se você deseja vincular a:
 
@@ -312,7 +292,7 @@ E comercial, em particular, é um problema para os autores da web. Se você quis
 
 você precisa codificar o URL como:
 
- http://images.google.com/images?num=30&amp;q=larry+bird 
+http://images.google.com/images?num=30&amp;q=larry+bird 
 
 no atributo href tag de âncora. Escusado será dizer que isso é fácil de esquecer e provavelmente é a fonte mais comum de erros de validação de HTML em sites de outra forma bem marcados.
 
@@ -743,19 +723,6 @@ This is intended as a quick reference and showcase. For more complete info, see 
 Note that there is also a Cheatsheet specific to Markdown Here if that's what you're looking for. You can also check out more Markdown tools.
 Table of Contents
 
-Headers
-Emphasis
-Lists
-Links
-Images
-Code and Syntax Highlighting
-Tables
-Blockquotes
-Inline HTML
-Horizontal Rule
-Line Breaks
-YouTube Videos
-Headers
 
 # H1
 ## H2
@@ -1057,7 +1024,7 @@ Or, in pure Markdown, but losing the image sizing and border:
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1.https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
-[GIHUB]:https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+[GITHUB]: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 
 
