@@ -1057,6 +1057,11 @@ Or, in pure Markdown, but losing the image sizing and border:
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1.https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
+[GIHUB]:https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+
+
+
 
 
 
